@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: sans-serif;
+}
+.content {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#0000001f, #0000004c), url(bg.jpg) fixed center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;    
+    font-weight: 600;
+    margin-bottom: 35px;
+    color: #f7e9e9;
+    text-align: center;
+}
+span {
+  font-size: 80px;
+}
+.reg {
+    width: 500px;
+    padding: 50px;
+    background: #00000064; 
+    border-radius: 18px;
+    box-shadow: -3px -3px 9px #e3e3e3a2,3px 3px 9px #dad9d9ab;
+}
+p {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 100;
+  margin-bottom: 45px;
+  text-align: center;
+  color: #c9c6c6;
+  
+}
+input {
+  background: #00000000;
+  border: none;
+  border-bottom: 2px solid #aeadad;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 5px 10px;
+  height: 100%;
+  font-size: 15px;
+  color: #e0d2d2;
+  border-radius: 7px;
+  background: #69696900;
+}
+input::placeholder{
+  color: #fcf9f9d7;
+}
+.gen{
+    display: flex;
+    margin: 20px 0px;
+}
+label {
+  color: #e0d2d2;
+  font-family: sans-serif;
+  margin-right: 40px;
+}
+#fe,#me{
+    margin-left: 80px;
+}
+  .for {
+    color: #ffa545;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+button {
+    margin: 25px 55px;
+    height: 50px;
+    width: 290px;
+    background-color: #8f8c87;
+    border: 7px inset #b5b0ac;
+    font-size: 20px;
+    cursor: pointer;
+}
+h2,a {
+  color: #e7b6b2;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 200;
+}
