@@ -29,9 +29,15 @@ span {
 .reg {
     width: 500px;
     padding: 50px;
-    background: #00000064; 
+    /* background: #00000064; 
     border-radius: 18px;
-    box-shadow: -3px -3px 9px #e3e3e3a2,3px 3px 9px #dad9d9ab;
+    box-shadow: -3px -3px 9px #e3e3e3a2,3px 3px 9px #dad9d9ab; */
+    background: linear-gradient(135deg, #ffffff1a, #ffffff00);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid #ffffff2e;
+    box-shadow: 0 8px 32px 0 #ffffff5e;
 }
 p {
   font-size: 18px;
